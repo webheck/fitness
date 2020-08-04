@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	 <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fitcamp</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/png" href="assets/img/icon/favicon.ico">
+    <!-- all css here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <link rel="stylesheet" href="assets/css/typography.css">
+    <link rel="stylesheet" href="assets/css/default-css.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <!-- modernizr css -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <style type="text/css">
+        .v-header{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  color:#fff;
+}
+.fullscreen-video-wrap{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+  overflow:hidden;
+}
+
+.fullscreen-video-wrap video{position: absolute;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+
+}
+
+/*.header-overlay{
+  height:90vh;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100vw;
+  z-index:1;
+  background:#302929;
+  opacity:0.4;
+}*/
+
+.header-content{
+  z-index:2;
+  margin-top: 80px;
+  margin-left: 80px;
+}
+.header-content h1{
+  font-size:50px;
+  margin-bottom:0;
+  color: #fff;
+  font-family: "Arquitect";
+  text-align: center;
+
+}
+.header-content h1 span{
+  font-size:50px;
+  margin-bottom:0;
+  color: #000;
+  font-family: "Arquitect";
+
+}
+
+.header-content p{
+  font-size:1.8rem;
+  display:block;
+  padding-bottom:2rem;
+  color: #fff;
+   font-family: "montserrat";
+}
+
+.btn{
+  background-color: #1CA7EC;
+  color: #fff;
+  font-size:1.6rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #1CA7EC;
+  font-weight: 600;
+  font-family: "Arquitecta";
+  transition: 0.2s;
+  border-radius: 25px;
+
+
+}
+.btn:hover{
+  background-color: #000;
+  color: #fff;
+  border: 2px solid transparent;
+}@font-face {
+    font-family: "Arquitect";
+    src: url("arquitecta.woff") format('woff');
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Arquitecta";
+    src: url("arquit_simple.woff") format('woff');
+}
+.abot{
+ /* height: 100vh;*/
+  background-color: #f3f4f5;
+/*  margin-top: 20px;*/
+  padding-bottom: 90px;
+padding-top: 90px;
+}
+
+.abot_content{
+  padding-top: 0px;
+}
+.abot_content h2{
+font-family: 'arquitecta';
+font-size: 35px;
+font-weight: 700;
+letter-spacing: 2px;
+text-align: center;
+}
+.abot_content h2:after {
+    display: block;
+    height: 2px;
+    background-color: #000;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.abot_para p{
+ font-family: "montserrat";
+  font-size: 18px;
+  letter-spacing: 2px;
+color: #000;
+}
+.abot_para{
+  margin-top: 50px;
+} .abot-icon{
+  margin-top: 20px;
+}
+.abot-icon p{
+   font-family: "montserrat";
+  font-size: 18px;
+  color: #000;
+  letter-spacing: 2px;
+}
+.abot-icon ion-icon{
+  font-size: 25px;
+  color: #1CA7EC;
+}
+.abot-btn {
+display: block;
+margin-left: 55px;
+margin-top: 40px;
+
+}
+
+
+.abot-btn .btn{
+   box-shadow: 0 8px 8px #dedede;
+}
+
+
+.abot-btn .btn:hover{
+  box-shadow: 0 8px 8px #dedede; 
+}
+
+
+.features{
+  padding-top: 90px;
+  padding-bottom: 90px;
+background: #fff;
+}
+
+.feature-heading{
+  position: relative;
+  
+  
+
+}
+.feature-heading h2{
+  font-family: 'arquitecta';
+font-size: 38px;
+font-weight: 700;
+letter-spacing: 2px;
+text-align: center;
+color: #000;
+padding-top: 30px;
+
+
+}
+
+.feature-heading h2:after {
+    display: block;
+    height: 2px;
+    background-color: #000;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.feature-content{
+  position: relative;
+  display: block;
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 50px;
+}
+.feature-content p{
+   font-family: "montserrat";
+  font-size: 19px;
+  color: #000;
+  letter-spacing: 2px; 
+  text-align: center;
+}
+
+.feature-svg{
+ position:relative; ;
+ width: 100%;
+
+
+}
+/* why choose us */
+
+ 
+
+
+.work-box{
+  background-color: #fff;
+  padding:5px 10px;
+  width: 300px;
+  margin-left: 10px;
+box-sizing: border-box;
+      box-shadow: 0 10px 20px #555;
+border-radius: 10px;
+}.work-icon{
+  align-content: center;  
+}
+.work-icon img{
+width: 70px;
+margin-left: 110px;
+margin-top: 20px;
+}
+.work-heading{
+  display: block;
+  margin-top: 20px;
+}
+.work-heading h2{
+ font-family: 'arquitecta';
+ font-size: 30px;
+ font-weight: 800;
+ letter-spacing: 2px;
+ text-align: center;
+
+}
+
+.work-content{
+  
+  margin-top: 20px;
+  padding: 5px 20px;
+}
+.work-content p{
+  font-family: "montserrat";
+  font-size: 18px;
+  color: #000;
+  letter-spacing: 2px; 
+  text-align: center;
+
+
+}
+
+
+/*gallerty scene */
+
+
+.gallery{
+  margin-bottom: 180px;
+  padding-top: 90px;
+  padding-bottom:90px;
+
+}
+.gallery .container{
+  transform-style: preserve-3d;
+
+}
+.img-box{
+  position: relative;
+
+
+/*  background: #000;
+*/
+}
+
+
+.img-box .img-gallery{
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+
+}
+.gal-content{
+  position: absolute;
+  top: 150px;
+  left: 30px;
+transform-style: preserve-3d;
+
+}
+
+.img-box .gal-content{
+  position: relative;
+transform: translateZ(20px) scaleY(0);
+background-color: #fff;
+display: block;
+margin-top: 0px;
+width: 200px;
+transition: 0.3s;
+padding: 40px 20px;
+transform-origin: top;
+transform-style: preserve-3d;
+
+
+}
+.img-box:hover .gal-content{
+  transform: translateZ(80px) scaleY(1);
+ box-shadow: 0 5px 15px #555;
+}
+.gal-content h2{
+   font-family: 'arquitecta';
+font-size: 38px;
+font-weight: 700;
+letter-spacing: 2px;
+text-align: center;
+color: #000;
+}
+.gal-content p{
+  font-size: 15px;
+  text-align: center;
+color: #000;
+}
+.img-gallery img{
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  
+}
+.team-heading {
+  padding-top: 40px;
+  
+  padding:10px 100px;
+}
+.team-heading h2{
+  font-family: 'arquitecta';
+font-size: 38px;
+font-weight: 700;
+letter-spacing: 2px;
+text-align: center;
+color: #000;
+}
+.team-heading h2:after {
+    display: block;
+    height: 2px;
+    background-color: #000;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.team-heading p{
+  
+  margin-top:45px;
+  margin-bottom: 45px;
+    font-size: 18px;
+  font-family: 'montserrat';
+  font-weight: 500;
+text-align: center;
+color: #000;
+}
+/*footer scene*/
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+.more{
+  height: 150vh;
+}
+.containe{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; 
+}
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+
+
+/*media scene*/
+/* how it works */
+
+.how{
+  padding-top: 90px;
+  padding-bottom: 0px;
+}
+.how h2{
+   font-family: 'arquitecta';
+font-size: 38px;
+font-weight: 700;
+letter-spacing: 2px;
+text-align: center;
+color: #000;
+padding-top: 30px;
+text-transform: uppercase;
+}
+.how  h2:after {
+    display: block;
+    height: 2px;
+    background-color: #000;
+    content: " ";
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 20px;
+} 
+svg{
+  display:none; 
+}
+
+/*vertical timeline scene */
+
+  .star .center-block{
+        background-color: #fff!important;
+      }
+      .item{
+        margin-bottom: 120px!important;
+      }
+      .timeLine{
+      -ms-transform: scale(0.8,0.8); 
+  transform: scale(0.8,0.8); 
+  margin-top: 0px!important;
+  padding-top: 0px!important;
+      }
+      
+
+      .item-sc{ position: relative!important;
+  width: 100%;
+  height: 100%;
+border-radius: 10px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+
+      }
+      .item:hover .item-sc {
+  transform: rotateY(180deg);
+}
+ .item-front, .item-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.item-front {
+  background-color: #fff;
+  color: black;
+  border-radius: 15px;
+}
+.item-back {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  max-height: 400px;
+  height: auto;
+  display: block;
+  background-color: #fff;
+  color: #000;
+  
+  
+  transform: rotateY(180deg);
+  padding: 15px 30px;
+  border-radius: 15px;
+
+  -
+}
+    .item-back h2{
+      margin-top: 35px;
+      text-align: center;
+      font-weight: 700;
+      text-transform: uppercase;
+
+
+      font-size: 36px;
+    }
+    .item-back p{
+      margin-top: 15px;
+      text-align: center;
+      font-size: 26px;
+      padding-top: 20px;
+    }
+
+@media screen and (max-width: 460px) {
+ 
+ .img-box{
+  
+ margin-bottom: 240px;
+}
+  
+ 
+
+  
+ }
+
+}
+
+</style>
+</head>
+<body id="top">
+
+	<header>
+        <div class="header-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-12">
+                        <div class="logo">
+                            <a href="index-2.html"><h2>logo</h2></a>
+                        </div>
+                    </div>
+                    <div class="col-md-9 d-none d-md-block">
+                        <div class="main-menu">
+                            <nav class="nav-menu">
+                                <ul id="nav_menu">
+                                    <li class="active"><a data-hover="home" href="#home"><span>Home</span></a></li>
+                                    <li><a data-hover="about" href="#about"><span>About</span></a></li>
+                                    <li><a data-hover="process" href="#process"><span>Our Process </span></a></li>
+                                    <li><a data-hover="our team" href="#team"><span>Our Team</span></a></li>
+                                    <li><a data-hover="register now" href="#contact"><span>Register Now</span></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 d-block d-md-none">
+                        <div class="responsive-menu-wrap"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="v-header container"  id="home">
+        
+    <div class="fullscreen-video-wrap">
+      <!--  https://www.videvo.net/video/typing-on-computer-white-bg/4475/ -->
+      <!-- DO NOT USE THIS VIDEO, I JUST NEEDED A HOSTED VIDEO FOR THIS CODEPEN> USE THE ONE ABOVE -->
+      <video autoplay loop muted>
+        <source src="girl_yoga.mp4" type="video/mp4">
+    </video>
+    </div>
+    <div class="header-overlay"></div>
+   
+    <div class="header-content text-md-center">
+       
+      <div ><h1>TRANSFORM YOURSELF IN <span >90 DAYS</span></h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut l</p>
+      <a class="btn">Register now </a></div>
+    </div>
+      <div class="white_svg svg_white">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,96L120,112C240,128,480,160,720,165.3C960,171,1200,149,1320,138.7L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+  </div>
+    </section>
+    <section class="abot" id="about">
+       <div class=" abot_content container">
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+             <h2>WHO ARE WE</h2>
+
+           <div class="abot_para"> <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis no</P></div>
+            <div class="abot-icon">
+            <p><ion-icon name="checkmark-outline"></ion-icon> Lorem ipsum dolor sit amet, </p>
+             <p><ion-icon name="checkmark-outline"></ion-icon> Ut enim ad minim veniam, q  </p>
+              <p><ion-icon name="checkmark-outline"></ion-icon> consequat Duis aute irure</p>
+          </div>
+          <div  class="abot-btn"> <a class="btn" href="#">Get Started</a></div>
+
+          
+</div>
+          <div class="col-md-8" class="col-sm-12">
+          <div class="containe">
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+</div>
+          </div>
+          
+          </div>
+         
+
+        </div>
+<!-- <div class="white_svg svg_white" ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path fill="#000" fill-opacity="1" d="M0,96L120,112C240,128,480,160,720,160C960,160,1200,128,1320,112L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+</svg></div> -->
+     
+
+
+    
+    </section>
+   <section class="features" id="portfolio">
+     <div class="container">
+       <div class="feature-heading">
+<h2>WHAT WE PROVIDE</h2>       
+</div>
+<div class="feature-content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Duis aute irure dolor in reprehenderit</p>
+</div>
+
+     </div>
+      <!--  <div class="new-scene">
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path fill="#1ca7ec" fill-opacity="1" d="M0,128L120,144C240,160,480,192,720,197.3C960,203,1200,181,1320,170.7L1440,160L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path>
+</svg>
+       </div> -->
+ <div class="container">
+    <div class="row container">
+      <div class="col-md-4 col-sm-12">
+        <div class="work-box js--wp-5">
+          <div class="work-icon">
+          <img src="gym2.png">
+        </div>
+        <div class="work-heading">
+          <h2>live classes on zoom</h2>
+        </div>
+        <div class="work-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+        </div>
+        </div>
+
+      </div>
+       <div class="col-md-4 col-sm-12">
+        <div class="work-box">
+          <div class="work-icon">
+          <img src="meal.png">
+        </div>
+        <div class="work-heading">
+          <h2>Customized Diet </h2>
+        </div>
+        <div class="work-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+        </div>
+        </div>
+
+      </div>
+       <div class="col-md-4 col-sm-12">
+        <div class="work-box">
+          <div class="work-icon">
+          <img src="gym.png">
+        </div>
+        <div class="work-heading">
+          <h2>Equipments</h2>
+        </div>
+        <div class="work-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+        </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+   </section>
+
+<section class="how" id="process">
+  <div class="how-heading">
+    <h2>Our Process and Journey
+    </h2>
+
+  </div>
+<div class="timeLine">
+      <div class="row">
+        <div class="lineHeader hidden-sm hidden-xs"></div>
+        <div class="lineFooter hidden-sm hidden-xs"></div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item " >
+            <div onmouseover="bigImg()" onmouseout="normalImg()" class="caption item-sc ">
+              
+              <div class="image item-front">
+                <img src="strength-4.jpg">
+                <div class="title" id="p2">
+                  <h2>Fitness level  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
+                </div>
+
+              </div>
+              <div  onmouseover="bigImg()" onmouseout="normalImg()" class="item-back">
+              <h2> fitness level </h2>
+              <p>lorem ipsum is demo statement bLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Ut enim ad minim veniam, quis</p>
+            </div>
+            </div>
+            
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+            <div  onmouseover="bigImg()" onmouseout="normalImg()"class="caption item-sc">
+              
+              <div class="image item-front">
+                <img src="strength-1.jpg">
+                <div class="title" id="p3">
+                  <h2>Strength and Cardio <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
+                </div>
+              </div>
+              <div onmouseover="bigImg()" onmouseout="normalImg()" class="item-back">
+              <h2> Strength and Cardio</h2>
+              <p>lorem ipsum is demo statement bLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Ut enim ad minim veniam, quis</p>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+            <div onmouseover="bigImg()" onmouseout="normalImg()" class="caption item-sc">
+              
+              <div class="image item-front">
+                <img src="intense-1.jpg">
+                <div class="title" id="p4">
+                  <h2>Fat Loss Program<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
+                </div>
+              </div>
+              <div  onmouseover="bigImg()" onmouseout="normalImg()" class="item-back">
+              <h2> Fat Loss Program </h2>
+              <p>lorem ipsum is demo statement bLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Ut enim ad minim veniam, quis</p>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+            <div onmouseover="bigImg()" onmouseout="normalImg()" class="caption item-sc">
+              
+              <div class="image item-front">
+                <img src="strength-1.jpg">
+                <div class="title" id="p5">
+                  <h2>Muscle Workout<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
+                </div>
+              </div>
+              <div  onmouseover="bigImg()" onmouseout="normalImg()" class="item-back">
+              <h2> Muscle workout  </h2>
+              <p>lorem ipsum is demo statement bLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Ut enim ad minim veniam, quis</p>
+            </div>
+            </div>
+          </div>
+          
+          
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+            <div  onmouseover="bigImg()" onmouseout="normalImg()" class="caption item-sc">
+              
+              <div class="image item-front">
+                <img src="strength-2.jpg">
+                <div class="title" id="p6">
+                  <h2>Endurance Program<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
+                </div>
+              </div>
+              <div onmouseover="bigImg()" onmouseout="normalImg()" class="item-back">
+              <h2> Endurance Program</h2>
+              <p>lorem ipsum is demo statement bLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Ut enim ad minim veniam, quis</p>
+            </div>
+            </div>
+          </div>
+          
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+            <div   onmouseover="bigImg()" onmouseout="normalImg()" class="caption item-sc">
+              
+              <div class="image item-front">
+                <img src="endurance.jpg">
+                <div class="title" id="p7">
+                  <h2>Intensive  Workout<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h2>
+                </div>
+              </div>
+              <div onmouseover="bigImg()" onmouseout="normalImg()" class="item-back">
+              <h2> Intensive workout</h2>
+              <p>lorem ipsum is demo statement bLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Ut enim ad minim veniam, quis</p>
+            </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  
+</section>
+<section class="gallery" id="team">
+      <div class="team-heading">
+        <h2>OUR TEAM</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat .</p>
+
+      </div>
+      <div class="gal-im">
+        
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-12 col-xs-24">
+             <div class="img-box"><div class="img-gallery">
+              <img src="man-1.jpg">
+            </div>
+            <div class="gal-content">
+              <h2>Someone famous </h2>
+              <p>orem ipsum dolor sit amet, consectetur adipiscing elit, se,</p>
+            </div></div>
+            
+
+          </div>
+          <div class="col-md-3 col-sm-12 col-xs-24">
+            <div class="img-box"><div class="img-gallery">
+              <div class="gal-img"><img src="man-3.jpg"></div>
+            </div>
+            <div class="gal-content">
+              <h2>Someone famous </h2>
+              <p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed ,</p>
+            </div></div>
+            
+            
+          </div>
+           <div class="col-md-3 col-sm-12 col-xs-24 ">
+             <div class="img-box"><div class="img-gallery">
+              <div class="gal-img"><img src="girl-1.jpg"></div>
+            </div>
+            <div class="gal-content">
+              <h2>Someone famous </h2>
+              <p>orem ipsum dolor sit amet, consectetur adipiscing elit, se,</p>
+            </div></div>
+            
+          </div>
+           <div class="col-md-3 col-sm-12 col-xs-24 ">
+            <div class="img-box"><div class="img-gallery">
+              <div class="gal-img"><img src="man-2.jpg"></div>
+            </div>
+            <div class="gal-content">
+              <h2>Someone famous </h2>
+              <p>orem ipsum dolor sit amet, consectetur adipiscing elit, se,</p>
+            </div></div>
+            
+            
+          </div>
+        </div>
+     
+   </div>
+      </div>
+
+    </section>
+   
+     <footer class="site-footer">
+           <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+         <a href="#">Lorem</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+<script type="text/javascript">
+  function bigImg() {
+document.getElementById("p2").style.display = "none";
+document.getElementById("p3").style.display = "none";
+document.getElementById("p4").style.display = "none";
+document.getElementById("p5").style.display = "none";
+document.getElementById("p6").style.display = "none";
+document.getElementById("p7").style.display = "none";
+  
+}
+function normalImg(){
+document.getElementById("p2").style.display = "block";
+document.getElementById("p3").style.display = "block";
+document.getElementById("p4").style.display = "block";
+document.getElementById("p5").style.display = "block";
+document.getElementById("p6").style.display = "block";
+document.getElementById("p7").style.display = "block";
+
+
+}
+
+
+</script>
+<script src="vendors/js/jquery-3.4.1.min.js"></script>
+  <script src="js/timeLine.js"></script>
+    <script src="js/script.js"></script>
+    
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+        <script src="vendors/js/jquery.waypoints.js"></script>
+        
+<script type="text/javascript">
+    
+
+    $(document).ready(function(){
+     $('.js--wp-1').waypoint(function(direction){
+        $('.js--wp-1').addClass('animated fadeIn')
+   },{
+        offset:'50%'
+    })
+    $('.js--wp-2').waypoint(function(direction){
+        $('.js--wp-2').addClass('animated fadeIn')
+    },{
+        offset:'50%'
+    })
+    $('.js--wp-3').waypoint(function(direction){
+        $('.js--wp-3').addClass('animated fadeIn')
+    },{
+        offset:'50%'
+    })
+    $('.js--wp-4').waypoint(function(direction){
+        $('.js--wp-4').addClass('animated fadeIn ')
+    },{
+        offset:'50%'
+    })
+
+   $('.js--wp-5').waypoint(function(direction){
+        $('.js--wp-4').addClass('animated fadeInLeft ')
+    },{
+        offset:'50%'
+    })
+
+});
+
+
+</script>
+    <script src="vanilla-tilt.js"></script>
+   <script type="text/javascript">
+  VanillaTilt.init(document.querySelectorAll(".img-box"), {
+    max: 25,
+    speed: 400
+  });
+  
+  //It also supports NodeList
+ 
+</script>
+<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+<script src="assets/js/vendor/jquery-3.2.0.min.js"></script>
+    <!-- bootstrap 4 js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- others plugins -->
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
